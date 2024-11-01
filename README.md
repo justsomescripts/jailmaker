@@ -1,10 +1,16 @@
+ℹ️ I will maintain this fork of [Jailmaker](https://github.com/Jip-Hop/jailmaker) if there is enough interest.
+
 # Jailmaker
 
 Persistent Linux 'jails' on TrueNAS SCALE to install software (k3s, docker, portainer, podman, etc.) with full access to all files via bind mounts.
 
-## Project Unmaintained
+## Maintenance Status
 
-[As announced](https://github.com/Jip-Hop/jailmaker/discussions/241) this repo is no longer maintained by the original author: Jip-Hop. The final release is v2.1.1 which has been tested to be compatible with TrueNAS SCALE 24.10.0. Perhaps development continues in [one of the forks](https://github.com/Jip-Hop/jailmaker/forks). But since [iX has decided to integrate Incus in the SCALE 25.04 Fangtooth](https://github.com/truenas/middleware/pull/14592) it's probably best to start using that once it's available instead of relying on `jailmaker` and `systemd-nspawn`.
+[As announced](https://github.com/Jip-Hop/jailmaker/discussions/241) Jailmaker is no longer maintained by the original author: Jip-Hop.
+
+While I won't be able to implement big changes or new features at the moment, I'm planning to keep this fork updated and take care about PRs and new issues.
+
+v2.1.1 has been tested to be compatible with TrueNAS SCALE 24.10.0. But since [iX has decided to integrate Incus in the SCALE 25.04 Fangtooth](https://github.com/truenas/middleware/pull/14592) it's probably best to start using that once it's available instead of relying on `jailmaker` and `systemd-nspawn`.
 
 ## Video Tutorial
 
